@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --anonyms-color: #FF003D;
+    --names-color: #FF2B51;
+    --web-designer-color: #FF2B51;
+    --from-color: #C0C0C0;
+}
+
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    text-decoration: none;
+}
+
+body{
+    background-color: #000000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 95rem;
+    width: 95rem;
+    padding: 2rem;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mouse{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 90rem;
+    width: 90rem;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.logo img{
+    width: 5rem;
+}
+.logo h1{
+    text-transform: uppercase;
+    color: var(--anonyms-color);
+    font-size: 1.2rem;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: center;
+    text-align: right;
+    line-height: 1.5rem;
+}
+
+.name .fName{
+    color: var(--names-color);
+    font-weight: 400;
+    letter-spacing: rem;
+    margin-right: 0.3rem;
+}
+
+.name .lName{
+    color: var(--names-color);
+    font-weight: 600;
+    letter-spacing: 0.3rem;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 94rem;
+    overflow: hidden;
+}
+.content .left-side{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    align-items: left;
+    justify-content: center;
+    text-align: left;
+    width: 10rem;
+    margin-left: 5rem;
+    margin-right: 15rem;
+}
+.content .left-side .from{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    margin-left: 0.15rem;
+}
+
+.left-side .from .from-text{
+    color: var(--from-color);
+}
+
+.left-side .from .in-text{
+    font-size: 1.1rem;
+    color: var(--web-designer-color);
+    font-weight: 700;
+    margin-left: 0.7rem;
+}
+
+.content .ninja-man img{
+    width: 31rem;
+    margin-left: 0rem;
+    margin-right: 10rem;
+}
+
+.logos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 16rem;
+    margin-left: 10rem;
+    margin-right: -7rem;
+}
+
+.logos .links {
+    transform: rotate(90deg);
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+.logos .links ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4rem;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.logos .links ul li a{
+    gap: 3rem;
+    color: white;
+}
+
+.logos .socials{
+    display: flex;
+    align-self: flex-start;
+    align-items: left;
+    justify-content: flex-start;
+    gap: 1rem;
+    margin-top: 16rem;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+footer .footer{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
